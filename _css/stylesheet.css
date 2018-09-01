@@ -1,0 +1,126 @@
+body {
+	margin: 0; 
+	padding: 0;
+  font-family: 'Open Sans', Arial, sans-serif;
+  background-color: rgb(43, 43, 43);
+}
+
+/* ############### Header ######################
+################################################ */
+
+.banner {
+  width: 100%;
+  height: 392px;
+  top: 0;
+  left: 0;
+  background-image: radial-gradient(circle, rgba(57,71,106,0.2945553221288515) 39%, 
+  rgba(19,19,19,0.43461134453781514) 77%),
+    url('../_img/rvheader3.jpg');
+  background-size: contain, cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+    /* background-position: 0 0, 0 100px; */
+  }
+
+.title {
+  margin-top: 300px;
+  position: relative;
+  text-align: center;
+  font-size: 3em;
+  font-weight: unset;
+  text-decoration: underline;
+  color: #fff;
+}
+
+#topNav {
+  width: 100%;
+  padding: 0;
+  border: .4em solid rgb(43, 43, 43);
+  border-left: 0;
+  border-right: 0;
+  box-sizing: border-box;
+  position: relative;
+  background-color: rgb(255, 227, 133);
+  text-align: center;
+}
+
+#topNav a {
+  padding: 8px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 1.62em;
+  font-weight: bold;
+  color: #000;
+  /* background-color: green; */
+
+}
+
+#topNav a:hover, #topNav a:active {
+  color: rgb(207, 199, 123);
+}
+
+#topNav ul {
+  margin: 15px;
+  padding: 0;
+  list-style: none;
+  word-spacing: 3em;
+  /* background-color: brown; */
+}
+
+#topNav li {
+  display: inline-block;
+  /* background-color: violet; */
+}
+
+main {
+  width: 60%;
+  margin-top: 5%;
+  margin-left: 2%;
+  
+}
+
+main h2 {
+  font-size: 1.7em;
+  color: rgb(255, 227, 133);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+
+.thumbnail {
+  width: 230px;
+  height: auto;
+  margin-right: 15px;
+  border: 1px solid rgb(255, 227, 133);
+  float: left;
+}
+
+.news div {
+  min-height: 140px;
+  margin-top: 10px;
+  padding-bottom: 40px;
+  margin-bottom: 25px;
+  /* padding-left: 4px; */
+  border-bottom: 1px solid rgb(56, 56, 56);
+}
+
+.news dt {
+  margin-bottom: 7px;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: rgb(255, 227, 133);
+  /* display: inline-block; */
+  /* margin-left: 20px; */
+}
+
+.news dd {
+  font-size: .9em;
+  font-weight: 100;
+  color: white;
+}
+
+.news a {
+  text-underline-position: initial;
+  color: rgb(255, 227, 133);
+}
